@@ -7,8 +7,8 @@ import io
 import os
 import urllib.request
 
-MODEL_URL = "https://huggingface.co/aditi-io/casting-quality-model/resolve/main/casting_quality_model.keras"
-MODEL_PATH = "casting_quality_model.keras"
+MODEL_URL = "https://huggingface.co/aditi-io/casting-quality-model/resolve/main/casting_quality_model.h5"
+MODEL_PATH = "casting_quality_model.h5"
 
 # Download the model if it isn't already present
 if not os.path.exists(MODEL_PATH):
